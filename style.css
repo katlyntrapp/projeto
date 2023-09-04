@@ -44,7 +44,8 @@ body * {
 
 #container {
   /* seletor de id # */
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* largura */
   /* margin auto serve para alinhar ao meio a caixa automaticamente */
   /* display: block; fornece toda a largura possível da pagina, display: inline; mantém na mesma linha; div é block, img é inline */
