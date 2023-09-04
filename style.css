@@ -34,6 +34,7 @@ body {
   */
   background: var(--bg-url) no-repeat top center/cover;
   /* atalho acima resumindo os comandos, seguindo a ordem: color image repeat position/size */
+  height: 100vh;
 }
 body * {
   /* * é o seletor universal, vai aplicar para todos os elementos dentro do body */
@@ -172,3 +173,16 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/*media queries */
+@media (min-width: 700px) {
+:root { 
+--bg-url: url(./assets/assets/bg-desktop.jpg);
+}
+.light { 
+  --bg-url: url(./assets/assets/bg-desktop-light.jpg);
+
+}
+}
+
+
